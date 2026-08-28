@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   display: table;
   width: 100%;
   height: 100vh;
-  background: url(../img/hero-bg.jpg) top center fixed;
+  background: url(../img/abs.avif) top center fixed;
   background-size: cover;
 }
 
@@ -478,7 +478,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-container {
-  background: url(../img/about-img.jpg) left top no-repeat;
+  background: url(../img/Oscar2.jpeg) left top no-repeat;
 }
 
 #about .about-content {
@@ -604,7 +604,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;
-  height: 260px;
+  height: 310px;
   width: 100%;
   display: table;
   overflow: hidden;
@@ -612,7 +612,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #portfolio .portfolio-item .details {
-  height: 260px;
+  height: 310px;
   background: #fff;
   display: table-cell;
   vertical-align: middle;
