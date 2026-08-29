@@ -65,7 +65,7 @@
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="index.html">Inicio</a></li>
+          <li><a href="index.html">Inicio</a></li>
           <li class="menu-active"><a href="index.html#portfolio">Portafolio</a></li>
           <!--<li><a href="#about">Sobre mí</a></li>
           <li><a href="#services">Servicios</a></li>
@@ -106,42 +106,52 @@
       <div class="row">
         <div class="col-md-12">
           <br><br><br>
-          <h3 class="section-title">Dashboard de Análisis de Ventas y Rentabilidad Comercial — Distribuciones Andinas S.A.S.</h3>
+          <h3 class="section-title">Dashboard de Exploración de Nómina, Rotación y Árbol de Descomposición — Recursos Humanos (People Analytics)</h3>
           <h6>Nota: Este dashboard de Power BI utiliza información ficticia creada exclusivamente con fines demostrativos. Los datos no corresponden a personas, empresas u organizaciones reales.</h6>
           <br><br>
-          <p class="section-description">Este reporte ejecutivo de Business Intelligence está diseñado para evaluar el desempeño comercial,
-            la rentabilidad por portafolio y el comportamiento de clientes de la empresa de logística y distribución de Distribuciones Andinas S.A.S.
-            El informe centraliza métricas transaccionales clave para identificar oportunidades de optimización de ingresos, destacar productos
-            estrella y detectar desviaciones en los márgenes de ganancia. Propósito y Utilidad del Negocio. 
-            El tablero permite a la alta dirección y al equipo comercial realizar análisis descriptivos y diagnósticos sobre la operación general
-            del negocio mediante navegación interactiva por áreas (Menú, Ventas, Financiero, Administrativo).</p>
-          <h5>Componentes y Métricas Analizadas:</h5>
-
-          <p>Ingresos Totales: $6,375,631,565 COP.|Utilidad Total del Negocio: $2,491,911,499 COP.|
-             Base Activa de Clientes: 1,993 clientes.| Catálogo Operativo: 60 productos ofrecidos. |
-             Highlights Comerciales: Identificación del Producto Estrella (LECHE ENTERA) y la Región Líder en Ventas
-            (ANTIOQUIA con $3,335,155,579 COP).
+          <p class="section-description">
+            Este reporte de Business Intelligence está diseñado para el análisis estratégico de Recursos Humanos, Flujo de Personal y Estructura Organizacional. Su enfoque principal es evaluar la dinámicas de reclutamiento frente a las salidas de personal (rotación), la distribución geográfica en las distintas sedes operativas y la exploración interactiva de la jerarquía de cargos dentro de la empresa.
+            El tablero permite a los líderes de Gestión Humana y directores de operaciones diagnosticar el índice de rotación laboral (Turnover Rate), identificar brechas de personal por regiones y desglosar de forma dinámica (Drill-Down) la plantilla de colaboradores desde las áreas funcionales hasta los cargos específicos para optimizar la toma de decisiones organizacionales.
           </p>
 
-          <h5>Comportamiento Temporal e Ingresos:</h5>
-            <p>Evolución Histórica de Ventas: Gráfico de líneas que evalúa la tendencia multianual de ingresos (2018–2026) para detectar ciclos de crecimiento y caídas estacionales.|
-              Ingresos por Categoría: Visualización segmentada del aporte financiero por línea de producto (Lácteos, Cárnicos, Bebidas, Granos).
+          <h5>KPIs Principales y Rotación de Personal (Panel Izquierdo):</h5>
+            <p>
+              Contrataciones Totales: 212 ingresos registrados acompañados de un gráfico de minitendencia (Sparkline). |
+              Empleados Activos: 189 colaboradores vigentes en la organización. |
+              Despedidos / Salidas: 23 desvinculaciones registradas. |
+              % Rotación (Turnover Rate): 10,85% de índice de rotación de personal, lo que refleja la estabilidad de la nómina.
+
             </p>
 
-            <h5>Análisis de Portafolio y Productos:</h5>
-            <p>Top 5 Productos Más Vendidos: Escalafón en volumen/ingresos liderado por Leche Entera, Queso Crema y Mantequilla. |
-              Top 5 Productos Más Rentables (Treemap): Distribución proporcional del margen de contribución generado por los ítems con mayor utilidad neta. |
-              Top 5 Productos Menos Rentables: Alerta roja de desempeño para productos con menor margen de retorno (p. ej., Agua con Gas, Salchicha, Avena), facilitando decisiones de descontinuación o ajuste de precios.
+
+            <h5>Demografía Geográfica y Paridad de Género:</h5>
+            <p> 
+             Empleados Activos por Ciudad (Gráfico de Embudo / Funnel): Distribución territorial liderada por Medellín (29), Bucaramanga (28), Cartagena (27), Bogotá (24), Cali (22) y Cúcuta (22), descendiendo progresivamente hacia Pereira (13), Santa Marta (12) y Barranquilla (11). | 
+             Empleados Activos por Género (Gráfico de Dona): Balance de equidad de género compuesto por 98 hombres (51,85%) y 91 mujeres (48,15%).
             </p>
 
-             <h5>Análisis de Clientes y Filtros Dinámicos:</h5>
-            <p>Top 5 Clientes Más Rentables: Ranking de cuentas clave (Cuentas Key Account) con mayor impacto en el margen financiero. |
-              Segmentación Multidimension: Panel de filtros interactivos para desglosar la información por Tiempo (Año, Trimestre, Mes, Día), Producto, Tipo de Cliente, Departamento y Sucursal.
-            </p>
-          <iframe title="ACA" width="100%" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiYTA5MGEwYjgtNGM3Mi00YzkwLWI2ODYtNzM2MGE2M2JkYWMzIiwidCI6ImNiYzJjMzgxLTJmMmUtNGQ5My05MWQxLTUwNmM5MzE2YWNlNyIsImMiOjR9&pageName=7703ce01fda0d2094edb" frameborder="0" allowFullScreen="true"></iframe>
-          
 
-          
+            <h5>Tooltip Personalizado en las barras de Geográfica y Paridad de Género : Análisis Detallado de Tiempo Extra, Personal y Masa Salarial por Departamento</h5>
+            <p>Horas Extra por Nivel de Cargo (Gráfico de Barras) Medellín :</p>
+
+            Practicante: Lidera el consumo de tiempo adicional con 892 horas, evidenciando un alto volumen de sobrecarga o apoyo operativo en niveles de entrada. |
+            Coordinador: Registra 636 horas extra. |
+            Analista: Acumula 418 horas extra. |
+            Gerente: Registra 184 horas extra (menor volumen operativo directo). <br>
+
+
+             <h5>Análisis Jerárquico con Árbol de Descomposición (Decomposition Tree):</h5>
+            <p>
+              El Árbol de Descomposición es uno de los visuales de Inteligencia Artificial más potentes en Power BI. Permite realizar un análisis causa-raíz (Root Cause Analysis) y descomponer una métrica agregada en múltiples dimensiones jerárquicas en tiempo real. En este caso, desglosa el volumen de Empleados Activos (189) navegando de lo general a lo particular mediante los niveles de Departamento y Cargo.
+            </p>
+
+
+            <h5>Histórico de Contratación:</h5>
+            <p>Año de Contratación: Gráfico de columnas sobre la antigüedad del personal activo, destacando picos de incorporación de nómina entre 2014 y 2018, con un máximo de 34 contrataciones registradas en el año clave de expansión (2014).</p>
+
+           <iframe title="Recursos humanos" width="100%" height="500" src="https://app.powerbi.com/view?r=eyJrIjoiNzQyOWVmZDEtNGFiMi00MWI4LWE1YmUtNGQ0N2I4OTU1NjMzIiwidCI6ImNiYzJjMzgxLTJmMmUtNGQ5My05MWQxLTUwNmM5MzE2YWNlNyIsImMiOjR9&pageName=21d5bb6f2aae40c1626b" frameborder="0" allowFullScreen="true"></iframe>
+
+            
         </div>
       </div>
     </div>
