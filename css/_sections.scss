@@ -205,6 +205,25 @@
     }
 
   }
+
+  @media (max-width: 768px) {
+    .col-md-6 {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    .portfolio-item {
+      height: auto;
+      min-height: 0;
+      aspect-ratio: 16 / 9;
+      background-size: contain;
+      background-position: center center;
+
+      .details {
+        height: 100%;
+      }
+    }
+  }
 }
 
 /* Testimonials Section
